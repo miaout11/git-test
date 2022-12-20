@@ -1,12 +1,12 @@
 # Simple Twitter API  
 A RESTful API server for Simple Twitter project built with Node.js, Express framework, and MySQL.  
-
-**Simple Twitter API** is hosted on Heroku now. You can give it a try by using following base URL.  
+The apis are hosted on Heroku now.
+You can give it a try by using following base URL.  
 ```
 https://quiet-mountain-47605.herokuapp.com/
 ```
-
-**Simple Twitter Demo** is hosted [here](https://yuwen-ctw.github.io/simple_twitter/login). You can use the following accounts to login and try all the features:  
+**Demo** is hosted [here](https://yuwen-ctw.github.io/simple_twitter/login). 
+You can use the following accounts to login.  
 ```
 User(前台)
 account: user1
@@ -20,10 +20,7 @@ password: 12345678
 * [API Documents](https://gabby-chimpanzee-de2.notion.site/API-Documents-8fbcef78100c4d3ebde095c3031a0856)  
 
 ## Satrt to build a local API server  
-### Prerequisites
-Node.js, Express and MySQL are installed.
-
-### Installing
+### Please make sure you have installed Node.js, Express and MySQL.
 #### Clone the repo  
 ```
 git clone https://github.com/miaout11/twitter-api-2020
@@ -32,23 +29,25 @@ git clone https://github.com/miaout11/twitter-api-2020
 ```
 cd twitter-api-2020
 ```
-#### Install dependencies  
+#### Install 
 ```
 npm install
 ```
 #### Create file and folder in root
 ##### Set .env
-* Create a `.env` file and set variables(see `.env.example`). 
-* `JWT_SECRET=`
-* `IMGUR_CLIENT_ID=`
+* Create a `.env` file and set variables(see `.env.example` file).
+``` 
+JWT_SECRET=
+IMGUR_CLIENT_ID=
+```
 ##### Set upload feature
-* Make a `temp` folder for image upload.
+* Create a `temp` folder for image upload.
 #### Setting for database  
 * Modify `/config/config.json`
 ```
 "development": {
-  "username": "your db username",
-  "password": "your db password",
+  "username": "root",<change to your mysql username>
+  "password": "password",<change to your mysql password>
   "database": "ac_twitter_workspace",
   "host": "127.0.0.1",
   "dialect": "mysql"
@@ -67,6 +66,7 @@ npx sequelize db:seed:all
 ```
 npm start
 ```
+
 ## Built With  
 
 * [Express](https://expressjs.com/) - The framework used  
