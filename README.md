@@ -28,19 +28,27 @@ Node.js, Express and MySQL are installed.
 ```
 git clone https://github.com/miaout11/twitter-api-2020
 ```
+#### Switch to folder  
+```
+cd twitter-api-2020
+```
 #### Install dependencies  
 ```
 npm install
 ```
-#### Create file and folder in root  
-* Create a `.env` file and set variables(see `.env.example`). Notice that `JWT_SECRET` is required and `IMGUR_CLIENT_ID` is optional.
-* Make a `temp` folder for image upload feature.  
+#### Create file and folder in root
+##### Set .env
+* Create a `.env` file and set variables(see `.env.example`). 
+* `JWT_SECRET=`
+* `IMGUR_CLIENT_ID=`
+##### Set upload feature
+* Make a `temp` folder for image upload.
 #### Setting for database  
 * Modify `/config/config.json`
 ```
 "development": {
-  "username": "root",
-  "password": "password",
+  "username": "your db username",
+  "password": "your db password",
   "database": "ac_twitter_workspace",
   "host": "127.0.0.1",
   "dialect": "mysql"
