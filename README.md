@@ -50,7 +50,7 @@ Node.js, Express and MySQL are installed.
 ### Installing
 #### Clone the repo  
 ```
-git clone https://github.com/ritachien/twitter-api-2022.git
+git clone https://github.com/miaout11/twitter-api-2020
 ```
 #### Install dependencies  
 ```
@@ -111,7 +111,5 @@ echo %NODE_ENV%  // windowsOS
 * [Heroku](https://www.heroku.com/platform) - Where API hosted  
 
 ## Authors  
-* [Ruby Lo](https://github.com/rubylo718)  
-* [Rita Chien](https://github.com/ritachien)  
-
-List of [contributors](https://github.com/ritachien/twitter-api-2022/contributors) who participated in this project.  
+* [Evelyn](https://github.com/miaout11)  
+* [Timothy](https://github.com/Coli-co)  
