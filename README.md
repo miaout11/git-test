@@ -19,9 +19,7 @@ password: 12345678
 ## API Documents  
 * [API Documents](https://gabby-chimpanzee-de2.notion.site/API-Documents-8fbcef78100c4d3ebde095c3031a0856)  
 
-## Build a local API server  
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.  
-
+## Satrt to build a local API server  
 ### Prerequisites
 Node.js, Express and MySQL are installed.
 
