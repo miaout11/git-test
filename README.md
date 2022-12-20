@@ -16,9 +16,6 @@ Admin(後台)
 account: root
 password: 12345678
 ```
-
-**Simple Twitter Frontend** is developed by React.js ([repo link](https://github.com/Yuwen-ctw/simple_twitter)).  
-
 ## API Documents  
 * [API Documents](https://gabby-chimpanzee-de2.notion.site/API-Documents-8fbcef78100c4d3ebde095c3031a0856)  
 
